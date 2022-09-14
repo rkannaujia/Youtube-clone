@@ -9,6 +9,7 @@ position: sticky;
 top: 0;
 background-color: ${({ theme }) => theme.bgLighter};
 height: 56px;
+z-index: 1;
 `;
 const Wrapper=styled.div`
 display:flex;
