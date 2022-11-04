@@ -15,15 +15,14 @@ const VideoSchema=new mongoose.Schema({
     },
     imgUrl: {
         type: String,
-        required:true,
     },
     videoUrl: {
         type: String,
-        default:0,
+        required:true,
     },
     views: {
         type: Number,
-        required:true,
+         default:0,
     },
     tags:{
         type:[String],

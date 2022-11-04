@@ -23,7 +23,7 @@ const UserSchema=new mongoose.Schema({
         default:0
     },
     subscribedUsers: {
-        type:[String]
+        type: [String],
     }
 },{ timestamps:true}
 );
